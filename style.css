@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    background-color: rgb(90, 88, 88);
+}
+
+h1{
+    color:pink;
+    margin-left: 20px;
+    font-family: Comics Sans MS;
+}
+
+#nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    display:inline;
+}
+
+.mid{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.right{
+    float: right;
+    width: 300px;
+    display: inline;
+}
+
+#bgImage{
+    position: relative;
+}
+
+#bgImage img{
+    height: 600px;
+    width: 99.5%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.textBox{
+    margin-left: 40%;
+    position: absolute;
+    top: 40%;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    background-color:pink;
+    color: black;
+    opacity: 0.75;
+    
+}
+.textBox h3{
+    opacity: 1;
+}
+    
+#quote{
+    border-style: dashed;
+    border: 5px solid gray;
+}
+
+#headShot img{
+    float: left;
+    height: 400px;
+    width: 400px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+#about{
+    margin-left: 22%;
+}
+
+#hobbies{
+    margin-left: 22%;
+}
+
+tr:nth-child(even) {
+    background-color: #e85cf5;
+  }
